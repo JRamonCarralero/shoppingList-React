@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build:docs": "jsdoc ./src -r"
   },
   "dependencies": {
     "react": "^19.0.0",
@@ -16,6 +17,7 @@
   "devDependencies": {
     "eslint": "^9",
     "eslint-config-next": "15.2.0",
-    "@eslint/eslintrc": "^3"
+    "@eslint/eslintrc": "^3",
+    "jsdoc": "^4.0.4"
   }
 }

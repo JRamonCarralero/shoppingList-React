@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ejercicio Bootcamp lista de la compra con React
 
-## Getting Started
+Repositorio de José Ramón Carralero. Ejercicio del Bootcamp de Neoland, que consiste en crear una lista de la compra, hecho con React.
 
-First, run the development server:
+## Descripción
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+La aplicación consiste en una lista de la compra a la que podemos añadir articulos, indicando la cantidad y el precio. La lista calculará automaticamente el total.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Tiene una simulación de login, al que se accede con el usuario "<prueba@email.com>" con la contraseña "1234". Además tiene la opción de cargar una lista creada por defecto.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Para la gestión de los datos se usa un Reducer.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+![captura de pantalla](./public/screenshot.png)
 
-## Learn More
+En este repositorio se aplican los siguiente conocimientos adquiridos durante el curso:
 
-To learn more about Next.js, take a look at the following resources:
+* HTML
+* CSS
+* Javascript
+* Principios SOLID
+* React
+* JSDocs para la documentación
+* GitHub para gestión de repositorios
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Dependencias de la aplicación
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* React
+* Nextjs
+* ESLint
+* Jsdoc
