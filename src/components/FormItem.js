@@ -13,6 +13,10 @@ export default function FormItem({ _id, article, qty, price, onSetId, onSetArtic
      * Limpia los campos del formulario cuando termina.
      */
     function addItem() {
+        if (!article || !qty || !price) {
+            alert('Todos los campos son obligatorios')
+            return;
+        }
         if (_id) {
             onUpdateItem({ _id, article, qty, price })
         } else {
